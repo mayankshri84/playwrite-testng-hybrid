@@ -1,0 +1,12 @@
+serenity {
+  project.name = "Playwright TestNG Hybrid"
+  reports {
+    show.step.details = true
+    show.reports = true
+    show.releases = false
+serenity.take.screenshots=BEFORE_AND_AFTER_EACH_STEP
+
+  }
+
+  outputDirectory = "target/serenity-reports"
+}
